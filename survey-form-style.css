@@ -1,0 +1,289 @@
+html, body {
+	min-height: 100%;
+	font-size: 10px;
+}
+
+
+body {
+	background-color: rgb(61,61,141);
+	color: white;
+	font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+
+header {
+	text-align: center;
+	font-family:"Telefon Black", sans-serif;
+	font-size:1.5rem;
+	line-height: 2rem; 
+	margin-top: 5rem;
+	margin-bottom: 4rem;
+}
+
+
+#description {
+	font-size: 1.7rem;
+}
+
+#survey-form {
+	width: 60rem;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: rgb(38,38,70);
+	border-radius: 10px;
+	font-size: 2rem;
+
+	}
+
+label {
+	padding-top: 4rem;
+}
+	
+form {
+	padding-left: 4rem;
+	padding-top: 4rem;
+	padding-right: 4rem;
+	
+}
+
+#name {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 60rem;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#email {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 60rem;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#age {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 60rem;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#dropdown1 {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 60.5rem;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#radio {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+#dropdown2{
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 60.5rem;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#checkbox {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+#text-area {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 60rem;
+	height: 10rem;
+	text-indent: 10px;
+	padding-top: 10px;
+}
+
+#submit {
+	margin-top: .1rem;
+	margin-bottom: 3rem;
+	width: 60rem;
+	height: 5rem;
+	background-color: rgb(55,175,101);
+	color: white;
+}
+
+
+#name:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+
+#email:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+#age:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+#dropdown1:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+#radio:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+#dropdown2:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+#checkbox:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+#text-area:focus {
+  outline-color:rgb(28,59,116);
+  outline-style: solid;
+  border-color:rgb(28,59,116);
+  border-style: solid;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+html, body {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+header {
+	line-height:40px;
+	text-align: center;
+	display: block;
+	font-size:2rem;
+}
+
+#description {
+	line-height: 20px;
+	font-size: 1.8rem;
+}
+
+
+body {
+	margin: 0;
+}
+
+
+#survey-form {
+	width: auto;
+	background-color: rgb(38,38,70);
+	border-radius: 10px;
+	font-size: 2rem;
+	}
+
+form {
+	padding-left: 2rem;
+	padding-top: 4rem;	
+}
+
+#name {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 102%;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#email {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 102%;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#age {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 102%;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#dropdown1 {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 102%;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#radio {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+#dropdown2{
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 102%;
+	height: 2.8rem;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+
+#checkbox {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+#text-area {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	width: 103%;
+	height: 14rem;
+	text-indent: 10px;
+	padding-top: 10px;
+}
+
+#submit {
+	margin-top: .1rem;
+	margin-bottom: 6rem;
+	width: 104%;
+	height: 5rem;
+	background-color: rgb(55,175,101);
+	color: white;
+	cursor: pointer;
+}
